@@ -123,7 +123,7 @@ public class NavigationFactory : NSObject, FlutterStreamHandler
         }
 
         //options.distanceMeasurementSystem = _voiceUnits == "imperial" ? .imperial : .metric
-        options.distanceMeasurementSystem = _voiceUnits == .metric
+        options.distanceMeasurementSystem = .metric
         options.locale = Locale(identifier: _language)
 
         Directions.shared.calculate(options) { [weak self](session, result) in
