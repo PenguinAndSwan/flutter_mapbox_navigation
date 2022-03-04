@@ -26,7 +26,7 @@ public class NavigationFactory : NSObject, FlutterStreamHandler
     var _allowsUTurnAtWayPoints: Bool?
     var _isOptimized = false
     var _language = "en"
-    var _voiceUnits = "imperial"
+    var _voiceUnits = "metric"
     var _mapStyleUrlDay: String?
     var _mapStyleUrlNight: String?
     var _zoom: Double = 13.0
@@ -122,7 +122,8 @@ public class NavigationFactory : NSObject, FlutterStreamHandler
             options.allowsUTurnAtWaypoint = _allowsUTurnAtWayPoints!
         }
 
-        options.distanceMeasurementSystem = _voiceUnits == "imperial" ? .imperial : .metric
+        //options.distanceMeasurementSystem = _voiceUnits == "imperial" ? .imperial : .metric
+        options.distanceMeasurementSystem = _voiceUnits == .metric
         options.locale = Locale(identifier: _language)
 
         Directions.shared.calculate(options) { [weak self](session, result) in

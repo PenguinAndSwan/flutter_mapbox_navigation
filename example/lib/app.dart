@@ -77,7 +77,7 @@ class _SampleNavigationAppState extends State<SampleNavigationApp> {
         bannerInstructionsEnabled: true,
         allowsUTurnAtWayPoints: true,
         mode: MapBoxNavigationMode.drivingWithTraffic,
-        units: VoiceUnits.imperial,
+        units: VoiceUnits.metric,
         simulateRoute: true,
         animateBuildRoute: true,
         longPressDestinationEnabled: true,

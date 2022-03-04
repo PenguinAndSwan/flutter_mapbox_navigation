@@ -233,7 +233,8 @@ public class FlutterMapboxNavigationView : NavigationFactory, FlutterPlatformVie
             routeOptions.allowsUTurnAtWaypoint = _allowsUTurnAtWayPoints!
         }
 
-        routeOptions.distanceMeasurementSystem = _voiceUnits == "imperial" ? .imperial : .metric
+        //routeOptions.distanceMeasurementSystem = _voiceUnits == "imperial" ? .imperial : .metric
+        routeOptions.distanceMeasurementSystem = _voiceUnits == .metric
         routeOptions.locale = Locale(identifier: _language)
         self.routeOptions = routeOptions
 
