@@ -1,13 +1,13 @@
-package com.eopeter.flutter_mapbox_navigation.utilities;
+package com.penguinandswan.flutter_mapbox_navigation.utilities;
 
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Build
 import androidx.annotation.NonNull
-import com.eopeter.flutter_mapbox_navigation.FlutterMapboxNavigationPlugin
-import com.eopeter.flutter_mapbox_navigation.models.MapBoxEvents
-import com.eopeter.flutter_mapbox_navigation.models.MapBoxRouteProgressEvent
+import com.penguinandswan.flutter_mapbox_navigation.FlutterMapboxNavigationPlugin
+import com.penguinandswan.flutter_mapbox_navigation.models.MapBoxEvents
+import com.penguinandswan.flutter_mapbox_navigation.models.MapBoxRouteProgressEvent
 import com.google.gson.Gson
 import com.mapbox.mapboxsdk.geometry.LatLng
 import io.flutter.plugin.common.MethodCall

@@ -11,7 +11,7 @@ Add Turn By Turn Navigation to Your Flutter Application Using MapBox. Never leav
                        DESC
   s.homepage         = 'http://dormmom.com'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Dorm Mom, Inc.' => 'eopeter@gmail.com' }
+  s.author           = { 'Dorm Mom, Inc.' => 'penguinandswan@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'

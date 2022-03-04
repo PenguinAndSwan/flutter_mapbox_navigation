@@ -1,4 +1,4 @@
-package com.eopeter.flutter_mapbox_navigation.models
+package com.penguinandswan.flutter_mapbox_navigation.models
 
 import com.mapbox.api.directions.v5.models.LegStep
 

@@ -1,4 +1,4 @@
-package com.eopeter.flutter_mapbox_navigation
+package com.penguinandswan.flutter_mapbox_navigation
 
 import android.app.Activity
 import android.app.Application
@@ -10,11 +10,11 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.core.content.ContextCompat
-import eopeter.flutter_mapbox_navigation.databinding.NavigationActivityBinding
-import eopeter.flutter_mapbox_navigation.R
-import com.eopeter.flutter_mapbox_navigation.models.MapBoxEvents
-import com.eopeter.flutter_mapbox_navigation.models.MapBoxRouteProgressEvent
-import com.eopeter.flutter_mapbox_navigation.utilities.PluginUtilities
+import penguinandswan.flutter_mapbox_navigation.databinding.NavigationActivityBinding
+import penguinandswan.flutter_mapbox_navigation.R
+import com.penguinandswan.flutter_mapbox_navigation.models.MapBoxEvents
+import com.penguinandswan.flutter_mapbox_navigation.models.MapBoxRouteProgressEvent
+import com.penguinandswan.flutter_mapbox_navigation.utilities.PluginUtilities
 import com.mapbox.api.directions.v5.DirectionsCriteria
 import com.mapbox.api.directions.v5.models.DirectionsRoute
 import com.mapbox.api.directions.v5.models.RouteOptions

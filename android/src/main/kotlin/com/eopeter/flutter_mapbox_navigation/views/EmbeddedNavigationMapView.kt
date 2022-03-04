@@ -1,11 +1,11 @@
-package com.eopeter.flutter_mapbox_navigation.views
+package com.penguinandswan.flutter_mapbox_navigation.views
 
 import android.app.Activity
 import android.view.View
 import android.content.Context
 
-import com.eopeter.flutter_mapbox_navigation.TurnByTurn
-import eopeter.flutter_mapbox_navigation.databinding.NavigationActivityBinding
+import com.penguinandswan.flutter_mapbox_navigation.TurnByTurn
+import penguinandswan.flutter_mapbox_navigation.databinding.NavigationActivityBinding
 import io.flutter.plugin.common.BinaryMessenger
 import io.flutter.plugin.common.EventChannel
 import io.flutter.plugin.common.MethodChannel

@@ -1,4 +1,4 @@
-package com.eopeter.flutter_mapbox_navigation
+package com.penguinandswan.flutter_mapbox_navigation
 
 import android.Manifest
 import android.app.Activity
@@ -6,8 +6,8 @@ import android.content.Context
 import android.content.pm.PackageManager
 import android.os.Build
 import androidx.annotation.NonNull;
-import com.eopeter.flutter_mapbox_navigation.activity.NavigationLauncher
-import com.eopeter.flutter_mapbox_navigation.factory.EmbeddedNavigationViewFactory
+import com.penguinandswan.flutter_mapbox_navigation.activity.NavigationLauncher
+import com.penguinandswan.flutter_mapbox_navigation.factory.EmbeddedNavigationViewFactory
 
 import com.mapbox.api.directions.v5.DirectionsCriteria
 import com.mapbox.api.directions.v5.models.DirectionsRoute
@@ -65,7 +65,7 @@ public class FlutterMapboxNavigationPlugin: FlutterPlugin, MethodCallHandler, Ev
     var mapStyleUrlDay: String? = null
     var mapStyleUrlNight: String? = null
     var navigationLanguage = "en"
-    var navigationVoiceUnits = DirectionsCriteria.IMPERIAL
+    var navigationVoiceUnits = DirectionsCriteria.METRIC
     var zoom = 15.0
     var bearing = 0.0
     var tilt = 0.0

@@ -1,4 +1,4 @@
-package com.eopeter.flutter_mapbox_navigation.activity
+package com.penguinandswan.flutter_mapbox_navigation.activity
 
 import android.annotation.SuppressLint
 import android.content.*
@@ -11,10 +11,10 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 
-import com.eopeter.flutter_mapbox_navigation.FlutterMapboxNavigationPlugin
-import com.eopeter.flutter_mapbox_navigation.models.MapBoxRouteProgressEvent
-import com.eopeter.flutter_mapbox_navigation.utilities.PluginUtilities
-import com.eopeter.flutter_mapbox_navigation.utilities.PluginUtilities.Companion.sendEvent
+import com.penguinandswan.flutter_mapbox_navigation.FlutterMapboxNavigationPlugin
+import com.penguinandswan.flutter_mapbox_navigation.models.MapBoxRouteProgressEvent
+import com.penguinandswan.flutter_mapbox_navigation.utilities.PluginUtilities
+import com.penguinandswan.flutter_mapbox_navigation.utilities.PluginUtilities.Companion.sendEvent
 
 import com.mapbox.api.directions.v5.models.*
 
@@ -79,8 +79,8 @@ import com.mapbox.navigation.ui.voice.model.SpeechAnnouncement
 import com.mapbox.navigation.ui.voice.model.SpeechError
 import com.mapbox.navigation.ui.voice.model.SpeechValue
 import com.mapbox.navigation.ui.voice.model.SpeechVolume
-import eopeter.flutter_mapbox_navigation.R
-import eopeter.flutter_mapbox_navigation.databinding.NavigationActivityBinding
+import penguinandswan.flutter_mapbox_navigation.R
+import penguinandswan.flutter_mapbox_navigation.databinding.NavigationActivityBinding
 import java.util.Locale
 
 class NavigationActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-group 'com.eopeter.flutter_mapbox_navigation'
+group 'com.penguinandswan.flutter_mapbox_navigation'
 version '1.0-SNAPSHOT'
 
 buildscript {
